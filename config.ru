@@ -1,7 +1,7 @@
 use Rack::Static,
-  :urls => ["src/assets/img", "src/assets/js", "src/assets/css", "src/templates"],
-  :root => "src",
-  :index => 'pages/index.html',
+  :urls => ["/assets/img", "/assets/js", "/assets/css", "/templates"],
+  :root => "dist",
+  :index => 'index.html',
   :header_rules => [[:all, {'Cache-Control' => 'public, max-age=3600'}]]
 
 headers = {'Content-Type' => 'text/html', 'Content-Length' => '9'}
