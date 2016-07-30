@@ -1,3 +1,18 @@
+# Northumberland Climbing Guide
+
+This project is a clone of Foundation Sites.
+
+## Setup
+Once you've cloned the repo you'll need to run `npm install` then `bower install`.
+To run the site locally run `foundation watch`.
+To push changes you first need to run `foundation build` then commit the changes to git. If you commit changes to github.com/gavinwye/northumberland-climbing-guide they will automatically be pushed to northumberland-climbing-guide,herokuapp.com providing you commit to the mater branch.
+
+## Contributing
+
+Via pull requests with a build.
+
+A Heroku review app will be generated for each pull request.
+
 # ZURB Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
