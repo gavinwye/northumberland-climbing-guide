@@ -78,3 +78,10 @@ http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `npm run build`.
+
+## remotes
+
+heroku	https://git.heroku.com/northumberland-climbing-guide.git (fetch)
+heroku	https://git.heroku.com/northumberland-climbing-guide.git (push)
+origin	git@github.com:gavinwye/northumberland-climbing-guide.git (fetch)
+origin	git@github.com:gavinwye/northumberland-climbing-guide.git (push)
